@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@vue/app",
+      {
+        "polyfills": [
+          "es6.promise",
+          "es6.symbol"
+        ],
+        "useBuiltIns": "entry",
+        "loose": true
+      }
+    ]
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "dynamic-import-node"
+      ]
+    }
+  }
+}
