@@ -54,7 +54,7 @@
     "lint-staged": "^6.0.0",
     "mockjs": "^1.0.1-beta3",
     "vue-template-compiler": "^2.5.13",
-    "webpack-dev-server": "^2.7.1"
+    "webpack-dev-server": "^3.9.0"
   },
   "browserslist": [
     "> 1%",
